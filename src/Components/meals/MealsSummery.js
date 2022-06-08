@@ -2,7 +2,7 @@ import classes from './MealsSummery.module.css';
 
 const MealsSummery = () => {
     return (
-        <section className={classes.summery}>
+        <section className={classes.summary}>
             <h2>Delicious food, Delivered to you</h2>
             <p>
                 Choose your favourite meal from our broad selection of available meals 
@@ -15,3 +15,4 @@ const MealsSummery = () => {
         </section>
     )
 }
+export default MealsSummery;
